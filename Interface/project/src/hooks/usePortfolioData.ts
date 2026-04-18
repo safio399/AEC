@@ -9,7 +9,11 @@ export interface PortfolioData {
   wilayas: Wilaya[] | null;
   zoneData: any[] | null;
   communeRisks: any[] | null;
+  typeData: any[] | null;
   pmlScenarios: PMLScenario[] | null;
+  activePolicies: number | null;
+  wilayasCovered: number | null;
+  communesCovered: number | null;
   isLoading: boolean;
   isError: boolean;
   error: string | null;
@@ -34,7 +38,11 @@ export function usePortfolioData() {
     wilayas: null,
     zoneData: null,
     communeRisks: null,
+    typeData: null,
     pmlScenarios: null,
+    activePolicies: null,
+    wilayasCovered: null,
+    communesCovered: null,
     isLoading: true,
     isError: false,
     error: null,
@@ -50,12 +58,16 @@ export function usePortfolioData() {
           throw new Error('Backend API is not available');
         }
 
-        const [rawSummary, wilayas, rawZoneData, rawCommunes, rawPML] = await Promise.all([
+        const [rawSummary, wilayas, rawZoneData, rawCommunes, rawPML, rawTypeData, activePolicies, wilayasCovered, communesCovered] = await Promise.all([
           apiClient.getPortfolioSummary(),
           apiClient.getPortfolioByWilaya(),
           apiClient.getPortfolioByZone(),
           apiClient.getCommuneRisks(10),
           apiClient.getPMLScenarios(),
+          apiClient.getPortfolioByType(),
+          apiClient.getActivePolicies(),
+          apiClient.getWilayasCovered(),
+          apiClient.getCommunesCovered(),
         ]);
 
         const zoneLabelMap: Record<string, string> = {
@@ -103,8 +115,8 @@ export function usePortfolioData() {
               ...w,
               zone: (zoneLabelMap[w.zone] as any) || w.zone,
               capital: w.capital / 10 ** 9,
-              policies: w.count || w.policies,
-              riskScore: w.risk_score || (w.zone === 'Zone III' || w.zone === '3' ? 88 : 45),
+              policies: w.policies,
+              riskScore: w.riskScore || (w.zone === 'Zone III' ? 88 : 45),
             }))
           : [];
 
@@ -116,8 +128,27 @@ export function usePortfolioData() {
             }))
           : [];
 
+        const typeColors: Record<string, string> = {
+          'Installation Industrielle': '#3B82F6',
+          'Installation Commerciale': '#10B981',
+          'Bien immobilier': '#8B5CF6',
+          '1 - Installation Industrielle': '#3B82F6',
+          '2 - Installation Commerciale': '#10B981',
+        };
+
+        const mappedTypes = Array.isArray(rawTypeData)
+          ? rawTypeData.map((t) => ({
+              type: t.type ? t.type.replace(/^\d+\s-\s/, '') : 'Unknown',
+              capital: t.total_capital / 10 ** 9,
+              policyCount: t.policy_count,
+              premium: t.total_premium,
+              color: typeColors[t.type] || '#6B7280',
+              pct: Math.round(((t.total_capital / 10 ** 9) / summary.totalCapital) * 100),
+            }))
+          : [];
+
         const mappedPml: PMLScenario[] = Array.isArray(rawPML)
-          ? rawPML.map((row) => mapPMLScenario(row as Record<string, unknown>))
+          ? rawPML.map((row) => mapPMLScenario(row as unknown as Record<string, unknown>))
           : [];
 
         setData({
@@ -125,7 +156,11 @@ export function usePortfolioData() {
           wilayas: mappedWilayas,
           zoneData: mappedZones,
           communeRisks: mappedCommunes,
+          typeData: mappedTypes,
           pmlScenarios: mappedPml,
+          activePolicies: activePolicies || 0,
+          wilayasCovered: wilayasCovered || 0,
+          communesCovered: communesCovered || 0,
           isLoading: false,
           isError: false,
           error: null,
@@ -137,9 +172,13 @@ export function usePortfolioData() {
         setData({
           summary: defaultSummary,
           wilayas: [],
-          zoneData: {},
+          zoneData: [],
           communeRisks: null,
+          typeData: null,
           pmlScenarios: null,
+          activePolicies: 0,
+          wilayasCovered: 0,
+          communesCovered: 0,
           isLoading: false,
           isError: true,
           error: errorMessage,

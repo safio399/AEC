@@ -9,6 +9,7 @@ import {
   TrendingUp,
   Brain,
   Lightbulb,
+  AlertTriangle,
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
@@ -31,6 +32,8 @@ const navItems: NavItem[] = [
   { id: 'financial', label: 'Métriques Fin.', icon: TrendingUp },
   { id: 'ml', label: 'Scoring ML', icon: Brain },
   { id: 'recommendations', label: 'Recommandations', icon: Lightbulb },
+  { id: 'hotspots', label: 'Surconcentration', icon: AlertTriangle, badge: 'TOP 20' },
+  { id: 'metrics', label: 'Métriques Clés', icon: LayoutDashboard },
 ];
 
 interface SidebarProps {

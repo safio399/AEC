@@ -7,7 +7,7 @@ import Badge from '../ui/Badge';
 import { Shield, Zap, AlertTriangle, CheckCircle2, Loader2 } from 'lucide-react';
 
 export default function Overview() {
-  const { summary, zoneData, communeRisks, isLoading, isError } = usePortfolioData();
+  const { summary, zoneData, typeData, communeRisks, isLoading, isError } = usePortfolioData();
 
   const fmt = (n: number) => new Intl.NumberFormat('fr-DZ', { maximumFractionDigits: 1 }).format(n);
   const fmtFull = (n: number) => new Intl.NumberFormat('fr-DZ').format(Math.round(n));

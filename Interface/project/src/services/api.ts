@@ -87,12 +87,64 @@ class APIClient {
     }
   }
 
+  async getPortfolioByType(): Promise<Record<string, any> | null> {
+    try {
+      const response = await this.client.get('/api/portfolio/by-type');
+      return response.data;
+    } catch (error) {
+      console.error('Failed to fetch portfolio by type:', error);
+      return null;
+    }
+  }
+
   async getHotspots(): Promise<Record<string, any> | null> {
     try {
       const response = await this.client.get('/api/portfolio/hotspots');
       return response.data;
     } catch (error) {
       console.error('Failed to fetch hotspots:', error);
+      return null;
+    }
+  }
+
+  async getConcentrationHotspots(limit: number = 20): Promise<any[] | null> {
+    try {
+      const response = await this.client.get('/api/concentration/hotspots', {
+        params: { limit },
+      });
+      return response.data as any[];
+    } catch (error) {
+      console.error('Failed to fetch concentration hotspots:', error);
+      return null;
+    }
+  }
+
+  async getActivePolicies(): Promise<number | null> {
+    try {
+      const response = await this.client.get('/api/portfolio/metrics/active-policies');
+      return response.data.active_policies;
+    } catch (error) {
+      console.error('Failed to fetch active policies:', error);
+      return null;
+    }
+  }
+
+  async getWilayasCovered(): Promise<number | null> {
+    try {
+      const response = await this.client.get('/api/portfolio/metrics/wilayas-covered');
+      return response.data.wilayas_covered;
+    } catch (error) {
+      console.error('Failed to fetch wilayas covered:', error);
+      return null;
+    }
+  }
+
+  async getCommunesCovered(): Promise<number | null> {
+    try {
+      const response = await this.client.get('/api/portfolio/metrics/communes-covered');
+      return response.data.communes_covered;
+    } catch (error) {
+      console.error('Failed to fetch communes covered:', error);
       return null;
     }
   }

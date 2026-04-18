@@ -9,7 +9,9 @@ export type NavSection =
   | 'financial'
   | 'ml'
   | 'simulation'
-  | 'recommendations';
+  | 'recommendations'
+  | 'hotspots'
+  | 'metrics';
 
 export interface Wilaya {
   code: number;

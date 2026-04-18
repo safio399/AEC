@@ -10,6 +10,8 @@ import FinancialMetrics from './components/sections/FinancialMetrics';
 import MLPredictions from './components/sections/MLPredictions';
 import SimulationEngine from './components/sections/SimulationEngine';
 import Recommendations from './components/sections/Recommendations';
+import SurconcentrationHotspots from './components/sections/SurconcentrationHotspots';
+import KeyMetricsSummary from './components/sections/KeyMetricsSummary';
 import { usePortfolioData } from './hooks/usePortfolioData';
 import type { NavSection } from './types';
 
@@ -23,6 +25,8 @@ const SECTION_COMPONENTS: Record<NavSection, React.ComponentType<{}>> = {
   financial: FinancialMetrics,
   ml: MLPredictions,
   recommendations: Recommendations,
+  hotspots: SurconcentrationHotspots,
+  metrics: KeyMetricsSummary,
 };
 
 export default function App() {

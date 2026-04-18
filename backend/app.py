@@ -195,6 +195,12 @@ async def get_by_zone():
     grouped = portfolio_df.groupby('ZONE_SISMIQUE').agg({'NUMERO_POLICE': 'count', 'CAPITAL_ASSURE': 'sum'}).reset_index()
     return [{"zone": str(row['ZONE_SISMIQUE']), "policy_count": int(row['NUMERO_POLICE']), "total_capital": float(row['CAPITAL_ASSURE'])} for _, row in grouped.iterrows()]
 
+@app.get("/api/portfolio/by-type")
+async def get_by_type():
+    if portfolio_df is None: raise HTTPException(503, "Data not loaded")
+    grouped = portfolio_df.groupby('TYPE').agg({'NUMERO_POLICE': 'count', 'CAPITAL_ASSURE': 'sum', 'PRIME_NETTE': 'sum'}).reset_index()
+    return [{"type": str(row['TYPE']), "policy_count": int(row['NUMERO_POLICE']), "total_capital": float(row['CAPITAL_ASSURE']), "total_premium": float(row['PRIME_NETTE'])} for _, row in grouped.iterrows()]
+
 @app.get("/api/portfolio/commune-risks")
 async def get_commune_risks(limit: int = 10):
     if portfolio_df is None: raise HTTPException(503, "Data not loaded")
@@ -209,6 +215,56 @@ async def get_commune_risks(limit: int = 10):
     
     top = grouped.head(limit)
     return [{"name": str(row['COMMUNE']), "capital": float(row['CAPITAL_ASSURE']), "policies": int(row['NUMERO_POLICE'])} for _, row in top.iterrows()]
+
+@app.get("/api/portfolio/metrics/active-policies")
+async def get_active_policies():
+    if portfolio_df is None: raise HTTPException(503, "Data not loaded")
+    # Assuming all policies in data are active; if there's a STATUS column, filter by it
+    status_col = 'STATUS' if 'STATUS' in portfolio_df.columns else None
+    if status_col:
+        active_count = len(portfolio_df[portfolio_df[status_col].isin(['ACTIVE', 'VALID', 'ACTIF'])])
+    else:
+        active_count = len(portfolio_df)
+    return {"active_policies": active_count}
+
+@app.get("/api/portfolio/metrics/wilayas-covered")
+async def get_wilayas_covered():
+    if portfolio_df is None: raise HTTPException(503, "Data not loaded")
+    wilayas_count = int(portfolio_df['WILAYA'].nunique())
+    return {"wilayas_covered": wilayas_count}
+
+@app.get("/api/portfolio/metrics/communes-covered")
+async def get_communes_covered():
+    if portfolio_df is None: raise HTTPException(503, "Data not loaded")
+    communes_count = int(portfolio_df['COMMUNE'].nunique())
+    return {"communes_covered": communes_count}
+
+# ============================================================================
+# CONCENTRATION & HOTSPOTS ENDPOINTS
+# ============================================================================
+
+@app.get("/api/concentration/hotspots")
+async def get_concentration_hotspots(limit: int = 20):
+    if hotspots_df is None:
+        raise HTTPException(status_code=503, detail="Hotspots data not available")
+    
+    top_hotspots = hotspots_df.head(limit)
+    result = []
+    for _, row in top_hotspots.iterrows():
+        # Convert string values with comma decimal separator to float
+        total_capital_str = str(row['Total_Capital']).replace(',', '.')
+        pct_capital_str = str(row['Pct_Total_Capital']).replace(',', '.')
+        
+        result.append({
+            "wilaya": str(row['WILAYA']),
+            "commune": str(row['COMMUNE']),
+            "zone": str(row['ZONE_SISMIQUE']),
+            "policy_count": int(row['Policy_Count']),
+            "total_capital": float(total_capital_str),
+            "pct_total_capital": float(pct_capital_str),
+            "concentration_flag": str(row['Concentration_Flag'])
+        })
+    return result
 
 # ============================================================================
 # PML & SCENARIO ENDPOINTS
