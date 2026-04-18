@@ -1,0 +1,2005 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "99 - ALGER",
+        "zone": "IIa",
+        "policies": 447,
+        "capital": 40804543615.22,
+        "vulnerability": 0.31476510067114094,
+        "risk_score": 18442597291.836,
+        "concentration_pct": 13.622
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "31 - ORAN",
+        "commune": "1019 - ORAN",
+        "zone": "IIa",
+        "policies": 999,
+        "capital": 27820147715.22,
+        "vulnerability": 0.3124924924924925,
+        "risk_score": 11727495650.947199,
+        "concentration_pct": 9.288
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "19 - SETIF",
+        "commune": "1182 - SETIF",
+        "zone": "IIb",
+        "policies": 1101,
+        "capital": 26346995355.34,
+        "vulnerability": 0.40930063578564946,
+        "risk_score": 15384364486.739202,
+        "concentration_pct": 8.796
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "25 - CONSTANTINE",
+        "commune": "513 - CONSTANTINE",
+        "zone": "0",
+        "policies": 742,
+        "capital": 9662246675.04,
+        "vulnerability": 0.26563342318059296,
+        "risk_score": 2810216234.012,
+        "concentration_pct": 3.226
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "106 - BEB EZZOUAR",
+        "zone": "IIa",
+        "policies": 233,
+        "capital": 7679660205.84,
+        "vulnerability": 0.31287553648068667,
+        "risk_score": 2660782505.1024,
+        "concentration_pct": 2.564
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "19 - SETIF",
+        "commune": "1158 - EL EULMA",
+        "zone": "IIb",
+        "policies": 2170,
+        "capital": 7420811168.0,
+        "vulnerability": 0.40652534562211984,
+        "risk_score": 3158701990.2400002,
+        "concentration_pct": 2.477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "147 - ROUIBA",
+        "zone": "IIa",
+        "policies": 258,
+        "capital": 6125961110.0,
+        "vulnerability": 0.30930232558139537,
+        "risk_score": 2786795295.9599996,
+        "concentration_pct": 2.045
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "9 - BLIDA",
+        "commune": "356 - MOUZAIA",
+        "zone": "III",
+        "policies": 10,
+        "capital": 5369822177.21,
+        "vulnerability": 0.61,
+        "risk_score": 4288671141.768,
+        "concentration_pct": 1.793
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "36 - EL TAREF",
+        "commune": "623 - EL KALA",
+        "zone": "0",
+        "policies": 6,
+        "capital": 4907536000.0,
+        "vulnerability": 0.3,
+        "risk_score": 1472260800.0,
+        "concentration_pct": 1.638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1503 - TIZI OUZOU",
+        "zone": "IIa",
+        "policies": 1186,
+        "capital": 4805618603.2,
+        "vulnerability": 0.30202360876897133,
+        "risk_score": 1463207283.96,
+        "concentration_pct": 1.604
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "35 - BOUMERDES",
+        "commune": "471 - TIDJELABINE",
+        "zone": "I",
+        "policies": 19,
+        "capital": 4256824429.0,
+        "vulnerability": 0.2210526315789474,
+        "risk_score": 1356018806.88,
+        "concentration_pct": 1.421
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "105 - BARAKI",
+        "zone": "IIa",
+        "policies": 334,
+        "capital": 4124900702.32,
+        "vulnerability": 0.34059880239520957,
+        "risk_score": 1818881525.9136,
+        "concentration_pct": 1.377
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "11 - TAMENRASSET",
+        "commune": "1315 - TAMANRASSET",
+        "zone": "III",
+        "policies": 765,
+        "capital": 3844964140.0,
+        "vulnerability": 0.5005228758169934,
+        "risk_score": 1957003600.0,
+        "concentration_pct": 1.284
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "12 - TEBESSA",
+        "commune": "1344 - TEBESSA",
+        "zone": "III",
+        "policies": 106,
+        "capital": 3476574079.23,
+        "vulnerability": 0.5613207547169812,
+        "risk_score": 2491507848.538,
+        "concentration_pct": 1.161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "35 - BOUMERDES",
+        "commune": "461 - LARBATACHE",
+        "zone": "I",
+        "policies": 23,
+        "capital": 3236164400.0,
+        "vulnerability": 0.23304347826086957,
+        "risk_score": 776302880.0,
+        "concentration_pct": 1.08
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "29 - MASCARA",
+        "commune": "786 - MASCARA",
+        "zone": "I",
+        "policies": 953,
+        "capital": 3006705197.37,
+        "vulnerability": 0.2000419727177335,
+        "risk_score": 601381039.474,
+        "concentration_pct": 1.004
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "118 - CHERAGA ALGER",
+        "zone": "IIa",
+        "policies": 598,
+        "capital": 2887511137.0,
+        "vulnerability": 0.3269899665551839,
+        "risk_score": 931269341.1,
+        "concentration_pct": 0.964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "34 - B.B ARRERIDJ",
+        "commune": "368 - BORDJ BOU ARRERIDJ",
+        "zone": "IIa",
+        "policies": 950,
+        "capital": 2800127070.0,
+        "vulnerability": 0.32456842105263156,
+        "risk_score": 913561884.6,
+        "concentration_pct": 0.935
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "14 - TIARET",
+        "commune": "1384 - TIARET",
+        "zone": "IIb",
+        "policies": 439,
+        "capital": 2731204830.6,
+        "vulnerability": 0.4621412300683371,
+        "risk_score": 1370735901.7280002,
+        "concentration_pct": 0.912
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1504 - TIZI RACHED",
+        "zone": "IIa",
+        "policies": 106,
+        "capital": 2652197950.0,
+        "vulnerability": 0.3181132075471698,
+        "risk_score": 989519385.0,
+        "concentration_pct": 0.885
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "119 - DAR EL BEIDA",
+        "zone": "IIa",
+        "policies": 387,
+        "capital": 2416502970.0,
+        "vulnerability": 0.3248062015503876,
+        "risk_score": 788177691.0,
+        "concentration_pct": 0.807
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "136 - KOUBA",
+        "zone": "IIa",
+        "policies": 432,
+        "capital": 2380410343.5,
+        "vulnerability": 0.31222222222222223,
+        "risk_score": 740101809.45,
+        "concentration_pct": 0.795
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "13 - TLEMCEN",
+        "commune": "1560 - TLEMCEN",
+        "zone": "I",
+        "policies": 63,
+        "capital": 2321655022.16,
+        "vulnerability": 0.20317460317460317,
+        "risk_score": 551018462.5184,
+        "concentration_pct": 0.775
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "125 - EL BIAR",
+        "zone": "IIa",
+        "policies": 116,
+        "capital": 2270063670.0,
+        "vulnerability": 0.31551724137931036,
+        "risk_score": 772740606.0,
+        "concentration_pct": 0.758
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "111 - BIRTOUTA",
+        "zone": "IIa",
+        "policies": 313,
+        "capital": 2267859369.0,
+        "vulnerability": 0.3427476038338658,
+        "risk_score": 797611477.44,
+        "concentration_pct": 0.757
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "26 - MEDEA",
+        "commune": "838 - MEDEA",
+        "zone": "IIb",
+        "policies": 316,
+        "capital": 2147329718.2,
+        "vulnerability": 0.44582278481012655,
+        "risk_score": 992703902.336,
+        "concentration_pct": 0.717
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "25 - CONSTANTINE",
+        "commune": "515 - EL KHROUB",
+        "zone": "0",
+        "policies": 527,
+        "capital": 2083064140.9,
+        "vulnerability": 0.2660341555977229,
+        "risk_score": 614337545.225,
+        "concentration_pct": 0.695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "9 - BLIDA",
+        "commune": "342 - BLIDA",
+        "zone": "III",
+        "policies": 494,
+        "capital": 2075126220.0,
+        "vulnerability": 0.5248987854251013,
+        "risk_score": 1168112110.0,
+        "concentration_pct": 0.693
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "5 - BATNA",
+        "commune": "174 - BATNA",
+        "zone": "IIa",
+        "policies": 622,
+        "capital": 1993948559.08,
+        "vulnerability": 0.30009646302250803,
+        "risk_score": 598304567.724,
+        "concentration_pct": 0.666
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1498 - TIGZIRT",
+        "zone": "IIa",
+        "policies": 335,
+        "capital": 1912350321.0,
+        "vulnerability": 0.30107462686567166,
+        "risk_score": 600658982.28,
+        "concentration_pct": 0.638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "35 - BOUMERDES",
+        "commune": "450 - BOUMERDES",
+        "zone": "I",
+        "policies": 223,
+        "capital": 1858125388.0,
+        "vulnerability": 0.20860986547085203,
+        "risk_score": 419288677.6,
+        "concentration_pct": 0.62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "109 - BIR KHADEM",
+        "zone": "IIa",
+        "policies": 390,
+        "capital": 1776120954.01,
+        "vulnerability": 0.33215384615384613,
+        "risk_score": 581179486.2036,
+        "concentration_pct": 0.593
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "36 - EL TAREF",
+        "commune": "614 - BESBES EL TARF",
+        "zone": "0",
+        "policies": 1,
+        "capital": 1640833620.49,
+        "vulnerability": 0.4,
+        "risk_score": 656333448.1960001,
+        "concentration_pct": 0.548
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "18 - JIJEL",
+        "commune": "710 - TAHER",
+        "zone": "IIa",
+        "policies": 797,
+        "capital": 1627693720.0,
+        "vulnerability": 0.3000752823086575,
+        "risk_score": 489388116.0,
+        "concentration_pct": 0.543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "102 - BABA HASSEN",
+        "zone": "IIa",
+        "policies": 260,
+        "capital": 1603610640.0,
+        "vulnerability": 0.3369230769230769,
+        "risk_score": 540876432.0,
+        "concentration_pct": 0.535
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "35 - BOUMERDES",
+        "commune": "465 - OULED MOUSSA",
+        "zone": "I",
+        "policies": 219,
+        "capital": 1586162000.0,
+        "vulnerability": 0.23342465753424657,
+        "risk_score": 386777160.0,
+        "concentration_pct": 0.53
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "6 - BEJAIA",
+        "commune": "260 - BEJAIA",
+        "zone": "IIb",
+        "policies": 466,
+        "capital": 1550602181.95,
+        "vulnerability": 0.4116738197424893,
+        "risk_score": 632776872.78,
+        "concentration_pct": 0.518
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "35 - BOUMERDES",
+        "commune": "459 - KHEMIS EL KHECHNA",
+        "zone": "I",
+        "policies": 93,
+        "capital": 1509726650.0,
+        "vulnerability": 0.23526881720430107,
+        "risk_score": 439888970.00000006,
+        "concentration_pct": 0.504
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1466 - BOGHNI",
+        "zone": "IIa",
+        "policies": 453,
+        "capital": 1467846970.0,
+        "vulnerability": 0.3010596026490066,
+        "risk_score": 441104091.0,
+        "concentration_pct": 0.49
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "122 - DOUERA",
+        "zone": "IIa",
+        "policies": 216,
+        "capital": 1458514406.25,
+        "vulnerability": 0.3397222222222222,
+        "risk_score": 494496722.25,
+        "concentration_pct": 0.487
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "43 - MILA",
+        "commune": "884 - HAMALA",
+        "zone": "IIa",
+        "policies": 4,
+        "capital": 1434020000.0,
+        "vulnerability": 0.345,
+        "risk_score": 516210000.0,
+        "concentration_pct": 0.479
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "23 - ANNABA",
+        "commune": "156 - ANNABA",
+        "zone": "IIb",
+        "policies": 431,
+        "capital": 1425740060.0,
+        "vulnerability": 0.4322969837587007,
+        "risk_score": 605732024.0,
+        "concentration_pct": 0.476
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "31 - ORAN",
+        "commune": "1003 - BIR EL DJIR",
+        "zone": "IIa",
+        "policies": 464,
+        "capital": 1375383670.0,
+        "vulnerability": 0.30982758620689654,
+        "risk_score": 420928101.0,
+        "concentration_pct": 0.459
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "27 - MOSTAGANEM",
+        "commune": "918 - MOSTAGANEM",
+        "zone": "I",
+        "policies": 248,
+        "capital": 1367273082.0,
+        "vulnerability": 0.2059677419354839,
+        "risk_score": 301337576.08,
+        "concentration_pct": 0.456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "137 - LES EUCALYPTUS",
+        "zone": "IIa",
+        "policies": 421,
+        "capital": 1354327170.0,
+        "vulnerability": 0.3437529691211401,
+        "risk_score": 459092151.0,
+        "concentration_pct": 0.452
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "124 - EL ACHOUR",
+        "zone": "IIa",
+        "policies": 112,
+        "capital": 1353138029.2,
+        "vulnerability": 0.31607142857142856,
+        "risk_score": 529117176.45600003,
+        "concentration_pct": 0.452
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "114 - BORDJ EL KIFFAN",
+        "zone": "IIa",
+        "policies": 249,
+        "capital": 1337391529.3899999,
+        "vulnerability": 0.32433734939759035,
+        "risk_score": 425284597.8804,
+        "concentration_pct": 0.446
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "120 - DELY BRAHIM",
+        "zone": "IIa",
+        "policies": 177,
+        "capital": 1308795100.0,
+        "vulnerability": 0.31898305084745765,
+        "risk_score": 428572530.0,
+        "concentration_pct": 0.437
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "134 - HYDRA",
+        "zone": "IIa",
+        "policies": 137,
+        "capital": 1277221430.0,
+        "vulnerability": 0.31270072992700726,
+        "risk_score": 389796429.0,
+        "concentration_pct": 0.426
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "143 - OULED FAYET",
+        "zone": "IIa",
+        "policies": 230,
+        "capital": 1274482207.0,
+        "vulnerability": 0.3203478260869565,
+        "risk_score": 404538662.1,
+        "concentration_pct": 0.425
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "31 - ORAN",
+        "commune": "997 - AIN TURK",
+        "zone": "IIa",
+        "policies": 141,
+        "capital": 1255680460.0,
+        "vulnerability": 0.3021276595744681,
+        "risk_score": 413009538.0,
+        "concentration_pct": 0.419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "42 - TIPAZA",
+        "commune": "1404 - HADJOUT",
+        "zone": "IIb",
+        "policies": 488,
+        "capital": 1192433440.0,
+        "vulnerability": 0.41131147540983604,
+        "risk_score": 495613376.0,
+        "concentration_pct": 0.398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "42 - TIPAZA",
+        "commune": "1417 - TIPAZA",
+        "zone": "IIb",
+        "policies": 348,
+        "capital": 1186250620.0,
+        "vulnerability": 0.4298850574712644,
+        "risk_score": 507668248.0,
+        "concentration_pct": 0.396
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "23 - ANNABA",
+        "commune": "162 - EL BOUNI",
+        "zone": "IIb",
+        "policies": 415,
+        "capital": 1146415725.0,
+        "vulnerability": 0.4433734939759036,
+        "risk_score": 496806290.0,
+        "concentration_pct": 0.383
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "48 - RELIZANE",
+        "commune": "1104 - SIDI KHETTAB",
+        "zone": "I",
+        "policies": 3,
+        "capital": 1120564393.9499998,
+        "vulnerability": 0.32000000000000006,
+        "risk_score": 358580606.064,
+        "concentration_pct": 0.374
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "26 - MEDEA",
+        "commune": "813 - BERROUAGHIA",
+        "zone": "IIb",
+        "policies": 291,
+        "capital": 1028229410.0,
+        "vulnerability": 0.4442611683848797,
+        "risk_score": 470767896.8,
+        "concentration_pct": 0.343
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1459 - AZAZGA",
+        "zone": "IIa",
+        "policies": 173,
+        "capital": 998763700.0,
+        "vulnerability": 0.3027745664739884,
+        "risk_score": 309873176.4,
+        "concentration_pct": 0.333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "97 - AIN BENIAN (ALGER)",
+        "zone": "IIa",
+        "policies": 291,
+        "capital": 997434888.0,
+        "vulnerability": 0.3051546391752577,
+        "risk_score": 302991866.4,
+        "concentration_pct": 0.333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "7 - BISKRA",
+        "commune": "308 - BISKRA",
+        "zone": "IIa",
+        "policies": 75,
+        "capital": 988501410.0,
+        "vulnerability": 0.34,
+        "risk_score": 351288423.0,
+        "concentration_pct": 0.33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "139 - MOHAMMADIA ALGER",
+        "zone": "IIa",
+        "policies": 260,
+        "capital": 981896530.0,
+        "vulnerability": 0.32053846153846155,
+        "risk_score": 309106719.0,
+        "concentration_pct": 0.328
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "135 - KHRAISSIA",
+        "zone": "IIa",
+        "policies": 153,
+        "capital": 963195960.0,
+        "vulnerability": 0.34274509803921566,
+        "risk_score": 330447588.0,
+        "concentration_pct": 0.322
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1472 - FREHA",
+        "zone": "IIa",
+        "policies": 173,
+        "capital": 848033820.0,
+        "vulnerability": 0.34231213872832367,
+        "risk_score": 292277876.4,
+        "concentration_pct": 0.283
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "126 - EL HARRACH",
+        "zone": "IIa",
+        "policies": 186,
+        "capital": 835805760.0,
+        "vulnerability": 0.3303225806451613,
+        "risk_score": 279379728.0,
+        "concentration_pct": 0.279
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "25 - CONSTANTINE",
+        "commune": "516 - HAMMA BOUZIANE",
+        "zone": "0",
+        "policies": 250,
+        "capital": 820892683.0,
+        "vulnerability": 0.29259999999999997,
+        "risk_score": 227178172.4,
+        "concentration_pct": 0.274
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "141 - OUED SMAR",
+        "zone": "IIa",
+        "policies": 41,
+        "capital": 779639290.0,
+        "vulnerability": 0.34097560975609753,
+        "risk_score": 298626987.0,
+        "concentration_pct": 0.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "44 - AIN DEFLA",
+        "commune": "34 - AIN-DEFLA",
+        "zone": "IIa",
+        "policies": 282,
+        "capital": 778649693.05,
+        "vulnerability": 0.3376595744680851,
+        "risk_score": 257749479.315,
+        "concentration_pct": 0.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "154 - ZERALDA",
+        "zone": "IIa",
+        "policies": 198,
+        "capital": 763508506.0,
+        "vulnerability": 0.32,
+        "risk_score": 239492551.8,
+        "concentration_pct": 0.255
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "110 - BIR MOURAD RAIS",
+        "zone": "IIa",
+        "policies": 153,
+        "capital": 753979170.0,
+        "vulnerability": 0.31450980392156863,
+        "risk_score": 236136321.0,
+        "concentration_pct": 0.252
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "28 - M SILA",
+        "commune": "972 - SIDI AISSA",
+        "zone": "0",
+        "policies": 162,
+        "capital": 753497800.0,
+        "vulnerability": 0.27499999999999997,
+        "risk_score": 210934450.0,
+        "concentration_pct": 0.252
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "123 - DRARIA",
+        "zone": "IIa",
+        "policies": 122,
+        "capital": 746252880.28,
+        "vulnerability": 0.3186885245901639,
+        "risk_score": 240885413.964,
+        "concentration_pct": 0.249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "43 - MILA",
+        "commune": "897 - TELAGHMA",
+        "zone": "IIa",
+        "policies": 189,
+        "capital": 729958860.0,
+        "vulnerability": 0.3495238095238095,
+        "risk_score": 255467658.0,
+        "concentration_pct": 0.244
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "146 - REGHAIA",
+        "zone": "IIa",
+        "policies": 214,
+        "capital": 728720966.26,
+        "vulnerability": 0.3030841121495327,
+        "risk_score": 222546289.878,
+        "concentration_pct": 0.243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "5 - BATNA",
+        "commune": "172 - ARRIS",
+        "zone": "IIa",
+        "policies": 315,
+        "capital": 726094890.0,
+        "vulnerability": 0.30057142857142854,
+        "risk_score": 218368467.0,
+        "concentration_pct": 0.242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "46 - AIN TIMOUCHENT",
+        "commune": "80 - HAMMAM BOUHADJAR",
+        "zone": "I",
+        "policies": 5,
+        "capital": 717822073.5799999,
+        "vulnerability": 0.2720000000000001,
+        "risk_score": 229171564.34560004,
+        "concentration_pct": 0.24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "19 - SETIF",
+        "commune": "1140 - BAZER SAKRA",
+        "zone": "IIb",
+        "policies": 119,
+        "capital": 712683060.0,
+        "vulnerability": 0.4228571428571429,
+        "risk_score": 337105224.0,
+        "concentration_pct": 0.238
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "9 - BLIDA",
+        "commune": "360 - OULED YAICH BLIDA",
+        "zone": "III",
+        "policies": 266,
+        "capital": 706617250.0,
+        "vulnerability": 0.5537593984962407,
+        "risk_score": 374758625.0,
+        "concentration_pct": 0.236
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1470 - DRAA BEN KHEDDA",
+        "zone": "IIa",
+        "policies": 172,
+        "capital": 689168180.0,
+        "vulnerability": 0.30104651162790697,
+        "risk_score": 206960454.0,
+        "concentration_pct": 0.23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "130 - EL MOURADIA",
+        "zone": "IIa",
+        "policies": 124,
+        "capital": 685148330.0,
+        "vulnerability": 0.32225806451612904,
+        "risk_score": 221010999.0,
+        "concentration_pct": 0.229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "15 - TIZI OUZOU",
+        "commune": "1478 - IFLISSEN TIZI OUZOU",
+        "zone": "IIa",
+        "policies": 75,
+        "capital": 629747110.0,
+        "vulnerability": 0.3,
+        "risk_score": 188924133.0,
+        "concentration_pct": 0.21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "43 - MILA",
+        "commune": "877 - CHELGHOUM LAID",
+        "zone": "IIa",
+        "policies": 204,
+        "capital": 624990665.0,
+        "vulnerability": 0.33882352941176475,
+        "risk_score": 211665199.8,
+        "concentration_pct": 0.209
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "116 - BOUZAREAH",
+        "zone": "IIa",
+        "policies": 98,
+        "capital": 618134290.0,
+        "vulnerability": 0.30551020408163265,
+        "risk_score": 188904447.0,
+        "concentration_pct": 0.206
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "138 - MAHELMA",
+        "zone": "IIa",
+        "policies": 118,
+        "capital": 615413459.03,
+        "vulnerability": 0.3101694915254237,
+        "risk_score": 186694037.709,
+        "concentration_pct": 0.205
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "150 - SIDI MOUSSA",
+        "zone": "IIa",
+        "policies": 129,
+        "capital": 609835160.0,
+        "vulnerability": 0.30697674418604654,
+        "risk_score": 194764548.0,
+        "concentration_pct": 0.204
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "28 - M SILA",
+        "commune": "962 - MSILA",
+        "zone": "0",
+        "policies": 254,
+        "capital": 603990140.0,
+        "vulnerability": 0.2511811023622047,
+        "risk_score": 151447535.0,
+        "concentration_pct": 0.202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "35 - BOUMERDES",
+        "commune": "456 - EL KHARROUBA",
+        "zone": "I",
+        "policies": 7,
+        "capital": 594415000.0,
+        "vulnerability": 0.2571428571428572,
+        "risk_score": 187067000.00000003,
+        "concentration_pct": 0.198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "10 - BOUIRA",
+        "commune": "410 - BOUIRA",
+        "zone": "III",
+        "policies": 266,
+        "capital": 592133990.0,
+        "vulnerability": 0.5353383458646617,
+        "risk_score": 305466995.0,
+        "concentration_pct": 0.198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "152 - STAOUELI",
+        "zone": "IIa",
+        "policies": 166,
+        "capital": 567788921.8,
+        "vulnerability": 0.3177108433734939,
+        "risk_score": 175136676.54,
+        "concentration_pct": 0.19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "27 - MOSTAGANEM",
+        "commune": "917 - MEZAGHRANE",
+        "zone": "I",
+        "policies": 78,
+        "capital": 547664203.0,
+        "vulnerability": 0.20974358974358973,
+        "risk_score": 119279240.6,
+        "concentration_pct": 0.183
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "42 - TIPAZA",
+        "commune": "1394 - BOU ISMAIL",
+        "zone": "IIb",
+        "policies": 105,
+        "capital": 545206460.0,
+        "vulnerability": 0.4365714285714286,
+        "risk_score": 229042584.0,
+        "concentration_pct": 0.182
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "9 - BLIDA",
+        "commune": "344 - BOUFARIK",
+        "zone": "III",
+        "policies": 183,
+        "capital": 534899380.0,
+        "vulnerability": 0.5174863387978142,
+        "risk_score": 273349690.0,
+        "concentration_pct": 0.179
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "25 - CONSTANTINE",
+        "commune": "514 - DIDOUCHE MOURAD",
+        "zone": "0",
+        "policies": 106,
+        "capital": 530732110.0,
+        "vulnerability": 0.2844339622641509,
+        "risk_score": 154201027.5,
+        "concentration_pct": 0.177
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "148 - SAOULA",
+        "zone": "IIa",
+        "policies": 72,
+        "capital": 504860560.0,
+        "vulnerability": 0.32916666666666666,
+        "risk_score": 185118168.0,
+        "concentration_pct": 0.169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "39 - El Oued",
+        "commune": "586 - EL OUED",
+        "zone": "I",
+        "policies": 104,
+        "capital": 502884687.0,
+        "vulnerability": 0.23423076923076921,
+        "risk_score": 123256779.68,
+        "concentration_pct": 0.168
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "43 - MILA",
+        "commune": "891 - ROUACHED",
+        "zone": "IIa",
+        "policies": 25,
+        "capital": 501986903.0,
+        "vulnerability": 0.3072,
+        "risk_score": 232188667.44,
+        "concentration_pct": 0.168
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "5 - BATNA",
+        "commune": "170 - AIN TOUTA",
+        "zone": "IIa",
+        "policies": 6,
+        "capital": 498219000.0,
+        "vulnerability": 0.36999999999999994,
+        "risk_score": 238010580.0,
+        "concentration_pct": 0.166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "142 - OULED CHEBEL",
+        "zone": "IIa",
+        "policies": 55,
+        "capital": 488524000.0,
+        "vulnerability": 0.3469090909090909,
+        "risk_score": 172813200.0,
+        "concentration_pct": 0.163
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "3 - LAGHOUAT",
+        "commune": "749 - LAGHOUAT",
+        "zone": "I",
+        "policies": 216,
+        "capital": 462780750.7,
+        "vulnerability": 0.20074074074074075,
+        "risk_score": 93610326.568,
+        "concentration_pct": 0.154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "133 - HUSSEIN DEY",
+        "zone": "IIa",
+        "policies": 65,
+        "capital": 455584625.0,
+        "vulnerability": 0.31846153846153846,
+        "risk_score": 143593387.8,
+        "concentration_pct": 0.152
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "16 - ALGER",
+        "commune": "113 - BORDJ EL BAHRI",
+        "zone": "IIa",
+        "policies": 80,
+        "capital": 451410365.0,
+        "vulnerability": 0.3075,
+        "risk_score": 137981509.5,
+        "concentration_pct": 0.151
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "wilaya": "21 - SKIKDA",
+        "commune": "1247 - AZZABA",
+        "zone": "IIa",
+        "policies": 5,
+        "capital": 448750000.0,
+        "vulnerability": 0.33599999999999997,
+        "risk_score": 161235000.0,
+        "concentration_pct": 0.15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

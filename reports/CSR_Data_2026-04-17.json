@@ -1,0 +1,42 @@
+{
+  "report_date": "2026-04-17T19:10:42.289050",
+  "portfolio": {
+    "total_capital_dzd": 43431810000000.0,
+    "total_capital_usd": 299529724137.931,
+    "available_capital_dzd": 4343181000000.0,
+    "number_of_policies": 39196,
+    "wilayas": 51,
+    "communes": 789
+  },
+  "zone_iii": {
+    "capital_dzd": 2882735974973.8,
+    "capital_usd": 19880937758.44,
+    "percentage": 6.637383924302948,
+    "target_percentage": 4.0,
+    "status": "CRITICAL"
+  },
+  "scenarios": {
+    "scenario_1_in_250": {
+      "magnitude": 7.5,
+      "gross_loss_dzd": 523071525898.1464,
+      "reinsurance_paid_dzd": 489667949603.23914,
+      "net_loss_dzd": 33403576294.907288,
+      "net_loss_pct": 0.07691039423617686,
+      "net_loss_pct_available_capital": 0.7691039423617686
+    }
+  },
+  "reinsurance": {
+    "structure": "3-Layer Hybrid",
+    "layer1_paid_dzd": 145000000000.0,
+    "layer2_paid_dzd": 261000000000.0,
+    "layer3_paid_dzd": 83667949603.2391,
+    "total_cession_dzd": 489667949603.23914,
+    "annual_cost_dzd": 2350000000000,
+    "coverage_percentage": 80
+  },
+  "solvency": {
+    "ratio": 130.02143727533036,
+    "status": "SAFE",
+    "minimum_required": 1.5
+  }
+}

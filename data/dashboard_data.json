@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "total_policies": 39196,
+    "total_capital": 299542211932.07,
+    "total_premium": 146426436.82599998,
+    "active_policies": 0,
+    "data_quality": 94.4
+  },
+  "by_zone": {
+    "0": {
+      "NUMERO_POLICE": 2608,
+      "CAPITAL_ASSURE": 23184690168.39
+    },
+    "I": {
+      "NUMERO_POLICE": 3258,
+      "CAPITAL_ASSURE": 27937915475.12
+    },
+    "III": {
+      "NUMERO_POLICE": 3136,
+      "CAPITAL_ASSURE": 19880937758.44
+    },
+    "IIa": {
+      "NUMERO_POLICE": 20952,
+      "CAPITAL_ASSURE": 172007384080.07
+    },
+    "IIb": {
+      "NUMERO_POLICE": 9172,
+      "CAPITAL_ASSURE": 56259575470.05
+    }
+  },
+  "by_type": {
+    "1 - Installation Industrielle": {
+      "NUMERO_POLICE": 421,
+      "CAPITAL_ASSURE": 99211908489.56999
+    },
+    "2 - Installation Commerciale": {
+      "NUMERO_POLICE": 9675,
+      "CAPITAL_ASSURE": 89927770060.38
+    },
+    "Bien immobilier": {
+      "NUMERO_POLICE": 29100,
+      "CAPITAL_ASSURE": 110402533382.12
+    }
+  },
+  "top_wilayas": {
+    "16 - ALGER": 100424548250.16,
+    "19 - SETIF": 36880710983.34,
+    "31 - ORAN": 31414400043.22,
+    "15 - TIZI OUZOU": 18822273530.86,
+    "35 - BOUMERDES": 15746649379.5,
+    "25 - CONSTANTINE": 13843084107.9,
+    "9 - BLIDA": 10514700299.21,
+    "36 - EL TAREF": 6905131270.49,
+    "42 - TIPAZA": 4477231990.0,
+    "6 - BEJAIA": 4401731522.91,
+    "43 - MILA": 4311404348.0,
+    "5 - BATNA": 4215539071.12,
+    "12 - TEBESSA": 4028030209.23,
+    "11 - TAMENRASSET": 4000620140.0,
+    "34 - B.B ARRERIDJ": 3931773560.0
+  },
+  "top_communes": {
+    "99 - ALGER": 40811209215.22,
+    "1019 - ORAN": 27828358385.22,
+    "1182 - SETIF": 26358095355.34,
+    "513 - CONSTANTINE": 9668755195.04,
+    "106 - BEB EZZOUAR": 7683420205.84,
+    "1158 - EL EULMA": 7435781168.0,
+    "147 - ROUIBA": 6125961110.0,
+    "356 - MOUZAIA": 5369822177.21,
+    "623 - EL KALA": 4907536000.0,
+    "1503 - TIZI OUZOU": 4807106603.2,
+    "471 - TIDJELABINE": 4256824429.0,
+    "105 - BARAKI": 4124900702.32,
+    "1315 - TAMANRASSET": 3858376140.0,
+    "1344 - TEBESSA": 3476574079.23,
+    "461 - LARBATACHE": 3246984400.0,
+    "786 - MASCARA": 3006705197.37,
+    "368 - BORDJ BOU ARRERIDJ": 2935719680.0,
+    "118 - CHERAGA ALGER": 2889791137.0,
+    "1384 - TIARET": 2731204830.6,
+    "1504 - TIZI RACHED": 2652197950.0
+  },
+  "pml_scenarios": [
+    {
+      "Scenario_ID": "Scenario_1",
+      "Scenario_Name": "Zone III - Magnitude 7.0 (Algiers Focus)",
+      "Focus_Zone": "III",
+      "Magnitude": 7.0,
+      "Affected_Policies": 3136,
+      "Capital_At_Risk": 19880937758.44,
+      "Total_PML": 2705542375.3352394,
+      "Avg_Loss_Per_Policy": 862736.726828839,
+      "Max_Loss_Single_Policy": 504000000.0,
+      "PML_as_Pct_Capital": 13.608726148678087,
+      "Description": "Major earthquake centered on Algiers/BLIDA"
+    },
+    {
+      "Scenario_ID": "Scenario_2",
+      "Scenario_Name": "Zone III - Magnitude 7.5 (Kabylie Focus)",
+      "Focus_Zone": "III",
+      "Magnitude": 7.5,
+      "Affected_Policies": 3136,
+      "Capital_At_Risk": 19880937758.44,
+      "Total_PML": 3607389833.78032,
+      "Avg_Loss_Per_Policy": 1150315.635771786,
+      "Max_Loss_Single_Policy": 672000000.0,
+      "PML_as_Pct_Capital": 18.144968198237454,
+      "Description": "Catastrophic earthquake (1-in-250 years) on Tizi Ouzou/Boumerdes"
+    },
+    {
+      "Scenario_ID": "Scenario_3",
+      "Scenario_Name": "Zone IIb - Magnitude 6.5 (Coastal)",
+      "Focus_Zone": "IIb",
+      "Magnitude": 6.5,
+      "Affected_Policies": 9172,
+      "Capital_At_Risk": 56259575470.05,
+      "Total_PML": 2803402414.0071044,
+      "Avg_Loss_Per_Policy": 305681.2140450446,
+      "Max_Loss_Single_Policy": 422923977.5264001,
+      "PML_as_Pct_Capital": 4.982978258517977,
+      "Description": "Strong coastal earthquake"
+    }
+  ]
+}
